@@ -110,12 +110,6 @@ There are a few things to get ready for.
   $ bundle lock --add-platform x86_64-linux
   ```
 
-Next, configure the _Pages_ service.
-
-1. Push any commits to GitHub to trigger the _Actions_ workflow. In the _Actions_ tab of your repository, you should see the workflow _Build and Deploy_ running. Once the build is complete and successful, the site will be deployed automatically.
-
-At this point, you can go to the URL indicated by GitHub to access your site.
-
 ### Manually Build and Deploy
 
 On self-hosted servers, you cannot enjoy the convenience of **GitHub Actions**. Therefore, you should build the site on your local machine and then upload the site files to the server.
